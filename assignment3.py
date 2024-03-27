@@ -1,2 +1,4 @@
-for i in range(0,5):
-print(i)
+original_price  = 100
+discount_percentage = 25
+
+    
