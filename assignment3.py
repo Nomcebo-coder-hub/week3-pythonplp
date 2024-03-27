@@ -22,3 +22,8 @@ original_price = float(input("Enter the original price of the item: "))
 discount_percentage = float(input("enter the discount percentage: "))
 
 final_price = calculate_discount(original_price, discount_percentage)
+
+if final_price == original_price:
+    print("No discount applied. Final price:", original_price)
+else:
+    print("Final price after discount:", final_price)   
